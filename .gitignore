@@ -1,0 +1,11 @@
+# Raw and derived data are downloadable; do not commit them.
+data/raw/
+data/processed/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Figures ARE committed: the README renders them on GitHub.
